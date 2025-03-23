@@ -31,8 +31,7 @@ This is a solution to the [Social links profile](https://www.frontendmentor.io/c
 
 -Active States:
 
-![](./active-states.jpg)
-<img src="https://raw.githubusercontent.com/ShahriarTbc/Social_links_profile/main/active-states.jpg" alt="Active States" width="400" height="765">
+<img src="https://raw.githubusercontent.com/ShahriarTbc/Social_links_profile/main/active-states.jpg" alt="Active States" width="466" height="953">
 
 ### Links
 
