@@ -1,0 +1,108 @@
+:root{
+--green: hsl(75, 94%, 57%);
+
+--white: hsl(0, 0%, 100%);
+
+--greyA: hsl(0, 0%, 20%);
+--greyB: hsl(0, 0%, 12%);
+--greyC: hsl(0, 0%, 8%);
+}
+
+
+
+*,
+*::after
+*::before{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  background-color: var(--greyC);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  background-color: var(--greyB);
+  width: 375px;
+  height: 650px;
+  margin: 100px auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+img{
+  width: 100px;
+  height: 100px;
+  margin-top: 50px ;
+  border-radius: 50%;
+  position: absolute;
+}
+
+
+.aDiv{
+  color: var(--white);
+  margin-top: 180px;
+  font-size: 25px;
+  font-weight:700;
+  position: absolute;
+}
+
+.bDiv{
+  color: var(--green);
+  margin-top: 220px;
+  font-size: 15px;
+  font-weight:600;
+  position: absolute;
+}
+
+.cDiv{
+  color: var(--white);
+  margin-top: 260px;
+  font-size: 15px;
+  font-weight:400;
+  position: absolute;
+  padding: 10px;
+}
+
+li{
+  width: 200px;
+  height: 300px;
+  margin-left: -115px;
+  list-style: none;
+  color: var(--white);
+  margin-top: 300px;
+ 
+}
+
+ul{
+  width: 300px;
+  height: 30px;
+  background-color: var(--greyA);
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  
+}
+
+li ul:hover{
+background-color: var(--green);
+color: var(--greyC) ;
+transition: 0.8s;
+}
