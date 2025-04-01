@@ -77,7 +77,7 @@ img{
   padding: 10px;
 }
 
-li{
+ul{
   width: 200px;
   height: 300px;
   margin-right: 155px;
@@ -87,7 +87,7 @@ li{
  
 }
 
-ul{
+li{
   width: 300px;
   height: 30px;
   background-color: var(--greyA);
@@ -102,7 +102,7 @@ ul{
   
 }
 
-li ul:hover{
+ul li:hover{
 background-color: var(--green);
 color: var(--greyC) ;
 transition: 0.8s;
