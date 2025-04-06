@@ -54,88 +54,51 @@ At the end, i believe i did a good job with the things that i used.
 Always open to any comments  
 
 ```css
-body{
-  background-color: var(--greyC);
-  font-family: "Inter", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Card Styles */
+.card {
+    background-color: var(--greyB);
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.main{
-  background-color: var(--greyB);
-  width: 375px;
-  height: 650px;
-  margin: 100px auto;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  
+/* Profile Image */
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
 
-
-img{
-  width: 100px;
-  height: 100px;
-  margin-top: 50px ;
-  border-radius: 50%;
-  position: absolute;
+/* Name & Location */
+.card h2 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
 }
 
-
-.aDiv{
-  color: var(--white);
-  margin-top: 180px;
-  font-size: 25px;
-  font-weight:700;
-  position: absolute;
+.card h4 {
+    color: var(--green);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
 }
 
-.bDiv{
-  color: var(--green);
-  margin-top: 220px;
-  font-size: 15px;
-  font-weight:600;
-  position: absolute;
+/* Description */
+.card p {
+    color: var(--white);
+    font-size: 14px;
+    margin: 15px 0;
 }
 
-.cDiv{
-  color: var(--white);
-  margin-top: 260px;
-  font-size: 15px;
-  font-weight:400;
-  position: absolute;
-  padding: 10px;
-}
-
-li{
-  width: 200px;
-  height: 300px;
-  margin-left: -115px;
-  list-style: none;
-  color: var(--white);
-  margin-top: 300px;
- 
-}
-
-ul{
-  width: 300px;
-  height: 30px;
-  background-color: var(--greyA);
-  padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  border-radius: 7px;
-  cursor: pointer;
-  
-}
-
-li ul:hover{
-background-color: var(--green);
-color: var(--greyC) ;
-transition: 0.8s;
+/* Social Links */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
 }
 ```
 
